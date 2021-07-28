@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ============= Google font link ===============-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
     <!-- ========= Font Awesome ==========-->
     <script src="https://kit.fontawesome.com/4de13794a6.js" crossorigin="anonymous"></script>
 
@@ -24,9 +19,52 @@
 </head>
 <body>
     <!-- Header section Start -->
-    <header>
+    <header class="banner-bg-color">
         <!-- Banner part  -->
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center py-5">
+                <div class="col-lg-6 text-white">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="fw-bold">Honda CBR 300R</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    
 
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-bg-color px-5 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Choose The Bike</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <select name="bike" id="bike">
+                                        <option value="purchase">Select Bike</option>
+                                        <option value="yamaha-YZF-R15-V3">Yamaha YZF R15 V3</option>
+                                        <option value="yamaha-MT-15">Yamaha MT-15</option>
+                                    </select>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Pay Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6  ">
+                    <img class="img-fluid" src="asset/img/header-bike.png" alt="">
+                </div>
+            </div>
+        </div>
 
     </header>
     <!-- Header section End -->
