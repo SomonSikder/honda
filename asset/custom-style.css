@@ -16,3 +16,11 @@ body {
 .btn-bg-color {
   background-color: #e76f51;
 }
+/* span text color */
+.span-color {
+  color: #e76f51;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
